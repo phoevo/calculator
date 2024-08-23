@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.first-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#screen{
+    border: 2px solid black;
+    flex-grow: 1;
+    font-size: 50px;
+    display: flex;
+    background-color: white;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
+    height: 90px;
+    
+}
+
+.previous{
+    display: flex;
+    font-size: 30px;
+    
+}
+
+.current{
+    display: flex;
+    font-size: 40px;
+}
+
+.other-rows{
+    display: flex;
+    background-color: beige;
+   
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    margin: 5px;
+    font-size:larger; 
+}
+
